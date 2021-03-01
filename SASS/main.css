@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("../images/top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  padding: 2vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 100;
+}
+
+header section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header section .toggle-btn #lable {
+  font-size: 2.5vw;
+}
+
+header section .logo {
+  font-size: 2vw;
+  margin-left: 2vw;
+}
+
+header section .rigth-section {
+  margin-right: 5vw;
+  font-size: 1.5vw;
+}
+
+header section span {
+  display: inline-block;
+  font-size: 1.5vw;
+}
+
+header section .off {
+  margin-left: 1vw;
+}
+
+aside {
+  position: absolute;
+  top: 8vw;
+  left: 0;
+  width: 30vw;
+}
+
+aside .aside {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+aside .aside section {
+  width: 50%;
+  height: 10vw;
+  padding: 2vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+aside .aside section .spa-text {
+  color: #8dbfbe;
+}
+
+aside .aside section .nail-text {
+  color: #ca8fc7;
+}
+
+aside .aside section .hair-text {
+  color: #c2aa6c;
+}
+
+aside .aside section .product-text {
+  color: #e9e2e1;
+}
+
+aside .aside section .beauty-lounge-text {
+  color: #e9e2e1;
+}
+
+aside .aside section .promotion-text {
+  color: #97bee9;
+}
+
+aside .aside section p {
+  margin-top: 2vw;
+  padding-left: 1vw;
+}
+
+aside .aside section .spa, aside .aside section .nail, aside .aside section .hair, aside .aside section .product, aside .aside section .beauty-lounge, aside .aside section .promotion {
+  border-radius: 50%;
+  height: 4vw;
+  width: 4vw;
+}
+
+aside .aside section .spa {
+  border: 1px solid #8dbfbe;
+}
+
+aside .aside section .nail {
+  border: 1px solid #ca8fc7;
+}
+
+aside .aside section .hair {
+  border: 1px solid #c2aa6c;
+}
+
+aside .aside section .product {
+  border: 1px solid #e9e2e1;
+}
+
+aside .aside section .beauty-lounge {
+  border: 1px solid #e9e2e1;
+}
+
+aside .aside section .promotion {
+  border: 1px solid #97bee9;
+}
+
+aside .aside .spa p {
+  color: #8dbfbe;
+}
+
+aside .aside-bottom {
+  margin-top: 3vw;
+  color: white;
+  padding-left: 3vw;
+}
+
+aside .aside-bottom p {
+  font-size: 0.8vw;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+main {
+  position: absolute;
+  top: 32vw;
+  left: 35vw;
+  color: white;
+}
+
+main .main p {
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+main .main span {
+  display: block;
+}
+
+main .main .salon-spa {
+  font-size: 1vw;
+  letter-spacing: 1vw;
+  padding-left: 0.5vw;
+}
+
+main .main .first-spantag, main .main .second-spantag {
+  font-size: 0.8vw;
+  margin-top: 1vw;
+  padding-left: 5vw;
+}
+
+main .main .second-spantag {
+  color: #ca8fc7;
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  top: 95%;
+  right: 5%;
+  -webkit-transform: translate(-5%, -95%);
+          transform: translate(-5%, -95%);
+}
+
+footer a {
+  font-size: 0.6vw;
+  color: white;
+  text-decoration: none;
+  margin-left: 1vw;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.second-banner {
+  background-image: url("../images/top2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  z-index: 10;
+  -webkit-transition: all 1.6s ease;
+  transition: all 1.6s ease;
+  color: white;
+}
+
+.banner-second {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.second-banner-container {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+/*# sourceMappingURL=main.css.map */

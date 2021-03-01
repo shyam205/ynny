@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0
+}
+
+.container{
+    background-image:url('../images/top.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    width:100%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    padding: 2vw;
+    box-sizing: border-box;
+    z-index: 100;
+    section{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        .toggle-btn{
+            #lable{
+                font-size: 2.5vw;
+            }
+        }
+        .logo{
+            font-size: 2vw;
+            margin-left: 2vw;
+        }
+        .rigth-section{
+            margin-right: 5vw;
+            font-size: 1.5vw; 
+        }
+        span{
+            display: inline-block;
+            font-size: 1.5vw;
+        }
+        .off{
+            margin-left: 1vw;
+        }
+        
+    }
+}
+aside{
+    position: absolute;
+    top:8vw;
+    left:0;
+    width:30vw;
+    
+    .aside{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        color:white;
+        section{
+            width:50%;
+            height:10vw;
+             padding: 2vw;
+             box-sizing: border-box;
+             .spa-text{
+                 color: #8dbfbe;;
+             }
+             .nail-text{
+                 color: #ca8fc7;
+             }
+             .hair-text{
+                 color:#c2aa6c;
+             }
+             .product-text{
+                 color:#e9e2e1;
+             }
+             .beauty-lounge-text{
+                 color: #e9e2e1;
+             }
+             .promotion-text{
+                 color: #97bee9;
+             }
+             p{
+                margin-top: 2vw;
+                padding-left: 1vw;
+            }
+            
+            .spa, .nail, .hair, .product, .beauty-lounge, .promotion{
+                border-radius: 50%;
+                height:4vw;
+                width:4vw;
+            }
+            .spa{
+                border: 1px solid #8dbfbe;
+                
+            } 
+            .nail{
+                border: 1px solid #ca8fc7;
+               
+            } 
+            .hair{
+                border: 1px solid #c2aa6c;
+               
+            } 
+            .product{
+                border: 1px solid #e9e2e1;
+                
+            } 
+            .beauty-lounge{
+                border: 1px solid #e9e2e1;
+               
+            } 
+            .promotion{
+                border: 1px solid #97bee9;
+               
+            }
+        }
+        .spa{
+            p{
+                color:#8dbfbe;
+            }
+        }
+       
+    }
+    .aside-bottom{
+        margin-top: 3vw;
+        color:white;
+        padding-left: 3vw;
+        p{
+            font-size: 0.8vw;
+            color: rgba(255,255,255,0.7);
+        }
+    }
+}
+main{
+    position: absolute;
+    top:32vw;
+    left:35vw;
+    color:white;
+    .main{
+        p{
+            font-size: 2.5vw;
+            font-weight: 600;
+        }
+        span{
+            display: block;
+        }
+        .salon-spa{
+            font-size: 1vw;
+            letter-spacing: 1vw;
+            padding-left: 0.5vw;
+        }
+        .first-spantag, .second-spantag{
+            font-size: 0.8vw;
+            margin-top: 1vw;
+            padding-left: 5vw;
+        }
+        .second-spantag{
+            color: #ca8fc7;
+            text-decoration: underline;
+        }
+    } 
+}
+footer{
+    position: absolute;
+    top:95%;
+    right:5%;
+    transform: translate(-5%,-95%);
+    a{
+        font-size: 0.6vw;
+        color:white;
+        text-decoration: none;
+        margin-left: 1vw;
+        color: rgba(255,255,255,0.7);
+    }
+}
+
+// second banner
+
+.second-banner{
+    background-image:url('../images/top2.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:100%;
+    width:100%;
+    transform: translateX(-100%);
+    z-index: 10;
+    transition: all 1.6s ease;
+    color:white;
+}
+.banner-second{
+    transform: translateX(0);
+}
+.second-banner-container{
+    position: absolute;
+    top:20%;
+    left: 5%;
+}
