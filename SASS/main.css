@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Shippori Mincho', serif;
+  cursor: none;
 }
 
 .container {
@@ -116,7 +117,7 @@ aside .aside section .product-text {
 }
 
 aside .aside section .beauty-lounge-text {
-  color: #e9e2e1;
+  color: #d79b89;
 }
 
 aside .aside section .promotion-text {
@@ -125,7 +126,7 @@ aside .aside section .promotion-text {
 
 aside .aside section p {
   margin-top: 2vw;
-  padding-left: 1vw;
+  padding-left: 0.7vw;
   font-size: 1.2vw;
 }
 
@@ -133,6 +134,41 @@ aside .aside section .spa, aside .aside section .nail, aside .aside section .hai
   border-radius: 50%;
   height: 4vw;
   width: 4vw;
+  background-color: transparent;
+  -webkit-transition: 0.4s all linear;
+  transition: 0.4s all linear;
+}
+
+aside .aside section .spa:hover, aside .aside section .nail:hover, aside .aside section .hair:hover, aside .aside section .product:hover, aside .aside section .beauty-lounge:hover, aside .aside section .promotion:hover {
+  border-radius: 50%;
+  height: 2vw;
+  width: 2vw;
+  margin-left: 1vw;
+  margin-top: 2vw;
+}
+
+aside .aside section .spa:hover {
+  background-color: #8dbfbe;
+}
+
+aside .aside section .nail:hover {
+  background-color: #ca8fc7;
+}
+
+aside .aside section .hair:hover {
+  background-color: #c2aa6c;
+}
+
+aside .aside section .product:hover {
+  background-color: #e9e2e1;
+}
+
+aside .aside section .beauty-lounge:hover {
+  background-color: #d79b89;
+}
+
+aside .aside section .promotion:hover {
+  background-color: #97bee9;
 }
 
 aside .aside section .spa {
@@ -152,7 +188,7 @@ aside .aside section .product {
 }
 
 aside .aside section .beauty-lounge {
-  border: 1px solid #e9e2e1;
+  border: 1px solid #d79b89;
 }
 
 aside .aside section .promotion {
@@ -260,6 +296,62 @@ footer a {
 .banner-second {
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+.banner-second .second-banner-container .spa {
+  color: #8dbfbe;
+}
+
+.banner-second .second-banner-container .nail {
+  color: #ca8fc7;
+}
+
+.banner-second .second-banner-container .hair {
+  color: #c2aa6c;
+}
+
+.banner-second .second-banner-container .product {
+  color: #e9e2e1;
+}
+
+.banner-second .second-banner-container .beauty {
+  color: #d79b89;
+}
+
+.banner-second .second-banner-container p {
+  font-size: 2.5vw;
+}
+
+.banner-second .second-banner-container h1 {
+  font-size: 5vw;
+}
+
+.banner-second .second-banner-container .spa-tag p:hover {
+  color: #8dbfbe;
+}
+
+.banner-second .second-banner-container .second-banner-firsttext p:hover {
+  color: #ca8fc7;
+}
+
+.banner-second .second-banner-container .nail-tag p:hover {
+  color: #ca8fc7;
+}
+
+.banner-second .second-banner-container .hair-tag p:hover {
+  color: #c2aa6c;
+}
+
+.banner-second .second-banner-container .product-tag p:hover {
+  color: #e9e2e1;
+}
+
+.banner-second .second-banner-container .beauty-tag {
+  color: #d79b89;
+}
+
+.banner-second .second-banner-container .bottom-tag {
+  margin-bottom: 3vw;
 }
 
 .cursorfirst {

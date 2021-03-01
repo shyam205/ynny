@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Shippori Mincho', serif;
+    cursor: none;
 }
 .container{
     background-image:url('../images/top.png');
@@ -70,7 +71,7 @@ aside{
              padding: 2vw;
              box-sizing: border-box;
              .spa-text{
-                 color: #8dbfbe;;
+                 color: #8dbfbe;
              }
              .nail-text{
                  color: #ca8fc7;
@@ -82,14 +83,14 @@ aside{
                  color:#e9e2e1;
              }
              .beauty-lounge-text{
-                 color: #e9e2e1;
+                 color: #d79b89;
              }
              .promotion-text{
                  color: #97bee9;
              }
              p{
                 margin-top: 2vw;
-                padding-left: 1vw;
+                padding-left: 0.7vw;
                 font-size: 1.2vw;
             }
             
@@ -97,6 +98,34 @@ aside{
                 border-radius: 50%;
                 height:4vw;
                 width:4vw;
+                background-color: transparent;
+                transition: 0.4s all linear;
+            }
+            .spa:hover, .nail:hover, .hair:hover, .product:hover, .beauty-lounge:hover, .promotion:hover{
+                border-radius: 50%;
+                height:2vw;
+                width:2vw;
+                margin-left: 1vw;
+                margin-top: 2vw;
+            }
+            
+            .spa:hover{
+              background-color:#8dbfbe;
+            } 
+            .nail:hover{
+                background-color:#ca8fc7;
+            }
+             .hair:hover{
+                background-color:#c2aa6c;
+            } 
+            .product:hover{
+                background-color:#e9e2e1;
+            } 
+            .beauty-lounge:hover{
+                background-color:#d79b89;
+            } 
+            .promotion:hover{
+                background-color:#97bee9;
             }
             .spa{
                 border: 1px solid #8dbfbe;
@@ -115,7 +144,7 @@ aside{
                 
             } 
             .beauty-lounge{
-                border: 1px solid #e9e2e1;
+                border: 1px solid #d79b89;
                
             } 
             .promotion{
@@ -215,6 +244,50 @@ footer{
 }
 .banner-second{
     transform: translateX(0);
+    .second-banner-container{
+        .spa{
+            color: #8dbfbe;
+        }
+        .nail{
+            color:#ca8fc7;
+        }
+        .hair{
+             color:#c2aa6c;
+        }
+        .product{
+             color:#e9e2e1;
+        }
+        .beauty{
+            color: #d79b89;
+        }
+        p{
+            font-size: 2.5vw;
+        }
+        h1{
+            font-size: 5vw;
+        }
+        .spa-tag p:hover{
+            color: #8dbfbe;
+        }
+        .second-banner-firsttext p:hover{
+            color:#ca8fc7;
+        }
+        .nail-tag p:hover{
+            color:#ca8fc7;
+        }
+        .hair-tag p:hover{
+            color:#c2aa6c;
+        }
+        .product-tag p:hover{
+            color:#e9e2e1;
+        }
+        .beauty-tag{
+            color:#d79b89;
+        }
+        .bottom-tag{
+            margin-bottom: 3vw;
+        }
+    }
 }
 
  // cursor start
