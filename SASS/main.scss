@@ -200,8 +200,6 @@ footer{
     z-index: 10;
     transition: all 1.6s ease;
     color:white;
-    overflow-x: hidden;
-    overflow-y:scroll;
     padding:0 0 2vw 0;
     box-sizing: border-box;
     .second-banner-container{
@@ -218,3 +216,34 @@ footer{
 .banner-second{
     transform: translateX(0);
 }
+
+ // cursor start
+ .cursorfirst{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 101;
+    width:3vw;
+    height:3vw;
+    border-radius:50%;
+    border:1px solid white;
+    transform:translate(-50%,-50%);
+     pointer-events: none;
+     transition: .1s;
+}
+.cursorsec{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 101;
+    width:0.5vw;
+    height:0.5vw;
+    background-color:white;
+    border-radius:50%;
+    border:1px solid black;
+    transform:translate(-50%,-50%);
+     pointer-events: none;
+     transition: .15s;
+}
+
+

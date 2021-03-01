@@ -240,8 +240,6 @@ footer a {
   -webkit-transition: all 1.6s ease;
   transition: all 1.6s ease;
   color: white;
-  overflow-x: hidden;
-  overflow-y: scroll;
   padding: 0 0 2vw 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -262,5 +260,38 @@ footer a {
 .banner-second {
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+.cursorfirst {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  border: 1px solid white;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  pointer-events: none;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.cursorsec {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  width: 0.5vw;
+  height: 0.5vw;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  pointer-events: none;
+  -webkit-transition: .15s;
+  transition: .15s;
 }
 /*# sourceMappingURL=main.css.map */

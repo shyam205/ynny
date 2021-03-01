@@ -31,4 +31,13 @@ $(document).ready(function() {
   $("#lable").click(function(){
 	  $(".second-banner").toggleClass('banner-second');
   })
+
+  $(document).mousemove(function(e){
+	 $(".cursorfirst").css({"left" : e.pageX + "px", "top": e.pageY + "px"});
+	 $(".cursorsec").css({"left" : e.pageX + "px", "top": e.pageY + "px"});
+   });
+
 });
+
+
+	
