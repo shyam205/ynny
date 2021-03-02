@@ -50,7 +50,10 @@ header{
         .off{
             margin-left: 1vw;
         }
-        
+        .online, .offline{
+            text-decoration: underline;
+            transition: 0.4s all linear;
+        }
     }
 }
 aside{
@@ -281,7 +284,7 @@ footer{
         .product-tag p:hover{
             color:#e9e2e1;
         }
-        .beauty-tag{
+        .beauty-tag p:hover{
             color:#d79b89;
         }
         .bottom-tag{
@@ -319,4 +322,24 @@ footer{
      transition: .15s;
 }
 
-
+.musicicon{
+    height:3vw;
+    width:6vw;
+    position: absolute;
+    right:10vw;
+    top:1.8vw;
+    overflow:hidden;
+    img{
+        height:100%;
+        width:100%;
+        object-fit: cover;
+        object-position: center;
+    }
+   
+}
+.showgif{
+    display: block;
+ }
+ .noshowgif{
+  display: none;
+ }

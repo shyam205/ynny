@@ -73,6 +73,12 @@ header section .off {
   margin-left: 1vw;
 }
 
+header section .online, header section .offline {
+  text-decoration: underline;
+  -webkit-transition: 0.4s all linear;
+  transition: 0.4s all linear;
+}
+
 aside {
   position: absolute;
   top: 8vw;
@@ -346,7 +352,7 @@ footer a {
   color: #e9e2e1;
 }
 
-.banner-second .second-banner-container .beauty-tag {
+.banner-second .second-banner-container .beauty-tag p:hover {
   color: #d79b89;
 }
 
@@ -385,5 +391,31 @@ footer a {
   pointer-events: none;
   -webkit-transition: .15s;
   transition: .15s;
+}
+
+.musicicon {
+  height: 3vw;
+  width: 6vw;
+  position: absolute;
+  right: 10vw;
+  top: 1.8vw;
+  overflow: hidden;
+}
+
+.musicicon img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.showgif {
+  display: block;
+}
+
+.noshowgif {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

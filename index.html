@@ -23,8 +23,8 @@
                     <div class="logo">YNNY.</div>
                 </section>
                 <section class="rigth-section">
-                     <span class="on">ON</span>
-                     <span class="off">OFF</span>
+                     <span class="on" onclick="on()">ON</span>
+                     <span class="off" onclick="off()">OFF</span>
                 </section>
              </header>
           <!-- header ended -->
@@ -142,9 +142,30 @@
                   <div class="cursorfirst"></div>
                  <div class="cursorsec"></div>
           <!-- cursors end -->
-    </div>
+           <audio id="mymusic" src="music.mp3" loop=""></audio>
+           <div class="musicicon">
+           <img src="images/tenor.gif">
+           </div>
+         </div>
 
     <!-- Script started-->
     <script src="index.js"></script>
+    <script>
+    $("#mymusic")[0].play();
+      function on(){
+        $("#mymusic")[0].play();
+        $(".on").addClass("online");
+         $(".off").removeClass("offline");
+         $(".musicicon").addClass("showgif");
+         $(".musicicon").removeClass("noshowgif");
+      }
+      function off(){
+        $("#mymusic")[0].pause();
+         $(".off").addClass("offline");
+          $(".on").removeClass("online");
+          $(".musicicon").addClass("noshowgif");
+          $(".musicicon").removeClass("showgif");
+      }
+    </script>
  </body>
  </html>

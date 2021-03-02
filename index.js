@@ -36,7 +36,7 @@ $(document).ready(function() {
 	 $(".cursorfirst").css({"left" : e.pageX + "px", "top": e.pageY + "px"});
 	 $(".cursorsec").css({"left" : e.pageX + "px", "top": e.pageY + "px"});
    });
-
+  
 });
 
 
