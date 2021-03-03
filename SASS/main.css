@@ -400,6 +400,7 @@ footer a {
   right: 10vw;
   top: 1.8vw;
   overflow: hidden;
+  display: none;
 }
 
 .musicicon img {
