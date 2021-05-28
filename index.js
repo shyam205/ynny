@@ -1,4 +1,5 @@
 $(document).ready(function() { 
+	
     if(window.innerWidth > 768){
 	$('.container').ripples({
 			resolution: 512,

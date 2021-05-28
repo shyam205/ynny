@@ -84,6 +84,7 @@ aside {
   top: 8vw;
   left: 0;
   width: 30vw;
+  z-index: 5;
 }
 
 aside .aside {
@@ -418,5 +419,129 @@ footer a {
 
 .noshowgif {
   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #lable {
+    font-size: 2.5rem !important;
+  }
+  header section .logo {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  header section span {
+    font-size: 2rem;
+  }
+  header section .off {
+    margin-left: 1.5rem;
+  }
+  main {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  main .salon-spa {
+    font-size: 1.5rem !important;
+  }
+  main .first-spantag {
+    font-size: 0.7rem !important;
+  }
+  main .second-spantag {
+    font-size: 0.7rem !important;
+  }
+  main .main p {
+    font-size: 2.5rem;
+  }
+  aside {
+    position: absolute;
+    left: 0;
+    top: 92vw;
+    width: 100%;
+  }
+  aside .aside {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  aside .aside section p {
+    font-size: 1.2rem;
+  }
+  aside .aside section .box {
+    height: 4rem;
+    width: 4rem;
+  }
+  aside .aside-bottom {
+    margin-top: 8vw;
+  }
+  aside .aside-bottom p {
+    font-size: 1.2rem;
+  }
+  footer {
+    top: 97%;
+  }
+  footer a {
+    font-size: 0.6rem;
+  }
+  .banner-second .second-banner-container p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  aside .aside {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header section span {
+    font-size: 1.5rem;
+  }
+  main .main p {
+    font-size: 1.3rem;
+  }
+  main {
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -20%);
+            transform: translate(-50%, -20%);
+  }
+  aside .aside {
+    margin-top: 9vw;
+  }
+  aside .aside section .box {
+    height: 3rem;
+    width: 3rem;
+  }
+  aside .aside-bottom {
+    margin-top: 32vw;
+  }
+  aside .aside-bottom p {
+    font-size: 0.7rem;
+  }
+  aside .aside section {
+    width: 33%;
+  }
+  aside .aside section .product {
+    margin-top: 13vw;
+  }
+  aside .aside section .beauty-lounge {
+    margin-top: 13vw;
+  }
+  aside .aside section .promotion {
+    margin-top: 13vw;
+  }
+  aside .aside section p {
+    font-size: 0.8rem;
+  }
+  footer {
+    top: 99%;
+  }
+  footer a {
+    font-size: 0.4rem;
+  }
+  aside .aside section .product, aside .aside section .beauty-lounge, aside .aside section .promotion {
+    margin-top: 13vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */
